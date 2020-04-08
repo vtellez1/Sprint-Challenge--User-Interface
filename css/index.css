@@ -29,8 +29,34 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
+
+.HomeHeader{
+display: flex;
+justify-content: space-between;
+padding: 30px 0px;
+}
+
+.HomeNav{
+    Width: 605px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.HomeNav a{
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    display: flex;
+    align-items: flex-end;
+}
+
+.topimg{
+    padding: 25px 0px;
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -112,6 +138,57 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box .box1{
+    background: teal;
+    padding: 42px 30px;
+}
+
+.middle-content .boxes .box .box2{
+    background: gold;
+    padding: 42px 30px;
+}
+
+.middle-content .boxes .box .box3{
+    background: cadetblue;
+    padding: 42px 30px;
+}
+
+.middle-content .boxes .box .box4{
+    background: coral;
+    padding: 42px 30px;
+}
+
+.middle-content .boxes .box .box5{
+    background: crimson;
+    padding: 42px 30px;
+}
+
+.middle-content .boxes .box .box6{
+    background: forestgreen;
+    padding: 42px 30px;
+}
+
+.middle-content .boxes .box .box7{
+    background: darkorchid;
+    padding: 42px 30px;
+}
+
+.middle-content .boxes .box .box8{
+    background: hotpink;
+    padding: 42px 30px;
+}
+
+.middle-content .boxes .box .box9{
+    background: indigo;
+    padding: 42px 30px;
+}
+
+.middle-content .boxes .box .box10{
+    background: dodgerblue;
+    padding: 42px 26px;
+    white-space: nowrap;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +221,167 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*Start of CSS for About Page */
+
+.AboutPage{
+    margin: 0 auto;
+    width: 800px;
+}
+
+.AboutHeader{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+    }
+    
+    .AboutNav{
+        Width: 605px;
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .AboutNav a{
+        text-decoration: none;
+        font-size: 17px;
+        color: black;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .Abouttopimg{
+        padding: 20px 0px;
+    }
+
+    .abouttopcontent{
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        border-bottom: 1px dashed black;
+        margin-bottom: 25px;
+    }
+
+    .fourboxes{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .StrategyBox{
+width: 45%;
+border-bottom: 1px dashed black;
+margin-bottom: 35px;
+padding: 10px;
+    }
+
+.StrategyBox h1{
+    padding-top: 10px;
+}
+
+    .HowBox{
+width: 45%;
+border-bottom: 1px dashed black;
+margin-bottom: 35px;
+padding: 10px;
+    }
+.HowBox h1{
+    padding-top: 10px;
+}
+
+
+.PlacesBox{
+width: 45%;
+border-bottom: 1px dashed black;
+margin-bottom: 35px;
+padding: 10px;
+}
+.PlacesBox h1{
+    padding-top:10px;
+}
+
+.CollabBox{
+width: 45%;
+border-bottom: 1px dashed black;
+margin-bottom: 35px;
+padding: 10px;
+}
+.CollabBox h1{
+    padding-top: 10px;
+}
+
+.LearnMore{
+border: 2px solid black;
+	background-color: white;
+	padding: 9px 0px;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 14px;
+	width: 110px;
+	display: flex;
+	justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.bottomContent{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-bottom: 25px;
+}
+
+/* Start of CSS for Contact HTML*/
+
+.ContactPage{
+    margin: 0 auto;
+    width: 800px;
+}
+
+.ContactHeader{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+    }
+    
+    .ContactNav{
+        Width: 605px;
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .ContactNav a{
+        text-decoration: none;
+        font-size: 17px;
+        color: black;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .ContactUsBox{
+background: lightgray;
+display: flex;
+flex-direction: column;
+
+    }
+
+    .input{
+        background: white;
+        Width: 500px;
+    }
+    .Name{
+
+    }
+
+    .Email{
+
+    }
+
+    .PhoneNum{
+
+    }
+    
+    .Mssg{
+
+    }
